@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="Assignment.css">
+    <script type="text/javascript" src="Assignment.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="heading-container">
+            <div class="line"></div>
+            <h2 class="heading">YAY! It's BOGO</h2>
+            <div class="line"></div>
+        </div>
+
+        <form class="form-container">
+            <div class="box">
+                <input type="radio" name="units" id="unit1" onclick="expandBox(1)" />
+                <label for="unit1">
+                    <div class="details">
+                        <div>
+                            <div class="offer-header">
+                                <span class="offer-text">1 Unit</span>
+                                <span class="discount">10% Off</span>
+                            </div>
+                            <div class="offer-name">
+                                <span>Standard Price</span>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <span class="price-value">$10.00 USD</span>
+                            <del class="delete">$24.00 USD</del>
+                        </div>
+                    </div>
+
+                    <div class="dropdown" id="dropdown1">
+                        <div class="dropdown-header">
+                            <span>Size</span>
+                            <span>Colour</span>
+                        </div>
+                        <div class="dropdown-row">
+                            <span>#1</span>
+                            <select name="size1">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <select name="colour1">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                            </select>
+                        </div>
+                        <div class="dropdown-row">
+                            <span>#2</span>
+                            <select name="size2">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <select name="colour2">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                            </select>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="box">
+                <input type="radio" name="units" id="unit2" onclick="expandBox(2)" checked="checked" />
+                <label for="unit2">
+                    <div class="most-popular">MOST POPULAR</div>
+                    <div class="details">
+                        <div>
+                            <div class="offer-header">
+                                <span class="offer-text">2 Unit</span>
+                                <span class="discount">20% Off</span>
+                            </div>
+                            <div class="offer-name">
+                                <span>Standard Price</span>
+                            </div>
+                        </div>
+
+                        <div class="price">
+                            <span class="price-value">$18.00 USD</span>
+                            <del class="delete">$24.00 USD</del>
+                        </div>
+                    </div>
+
+                    <div class="dropdown" id="dropdown2">
+                        <div class="dropdown-header">
+                            <span>Size</span>
+                            <span>Colour</span>
+                        </div>
+                        <div class="dropdown-row">
+                            <span>#1</span>
+                            <select name="size1">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <select name="colour1">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                            </select>
+                        </div>
+                        <div class="dropdown-row">
+                            <span>#2</span>
+                            <select name="size2">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <select name="colour2">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                            </select>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="box">
+                <input type="radio" name="units" id="unit3" onclick="expandBox(3)" />
+                <label for="unit3">
+                    <div class="details">
+                        <div>
+                            <div class="offer-header">
+                                <span class="offer-text">3 Unit</span>
+                                <span class="discount">10% Off</span>
+                            </div>
+                            <div class="offer-name">
+                                <span>Standard Price</span>
+                            </div>
+                        </div>
+                        <div class="price">
+                            <span>$24.00 USD</span>
+                            <del class="delete">$24.00 USD</del>
+                        </div>
+                    </div>
+
+
+                    <div class="dropdown" id="dropdown3">
+                        <div class="dropdown-header">
+                            <span>Size</span>
+                            <span>Colour</span>
+                        </div>
+                        <div class="dropdown-row">
+                            <span>#1</span>
+                            <select name="size1">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <select name="colour1">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                            </select>
+                        </div>
+                        <div class="dropdown-row">
+                            <span>#2</span>
+                            <select name="size2">
+                                <option value="S">S</option>
+                                <option value="M">M</option>
+                                <option value="L">L</option>
+                                <option value="XL">XL</option>
+                            </select>
+                            <select name="colour2">
+                                <option value="Black">Black</option>
+                                <option value="White">White</option>
+                                <option value="Red">Red</option>
+                                <option value="Blue">Blue</option>
+                            </select>
+                        </div>
+                    </div>
+                </label>
+            </div>
+
+            <div class="total">
+                <h4 class="heading1">Free Delivery</h4>
+                <h4 class="heading2">Total : $<span id="total-amount">18.00</span> USD</h4>
+            </div>
+            <div>
+                <button class="button">+ Add to Cart</button>
+            </div>
+            <p class="copyright">@ Powered by Pumper</p>
+        </form>
+    </div>
+</body>
+
+</html>
